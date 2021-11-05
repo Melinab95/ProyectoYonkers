@@ -90,18 +90,23 @@
   flex-wrap: wrap;
   justify-content: center;
   background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
-  background-position: center;
-  background-size: cover; }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .carta .carta__cajita {
     border: 2px black solid;
     width: 420px;
-    height: 420px;
+    height: 440px;
     background-color: white;
     margin: 10px;
     flex-flow: row wrap;
     text-align: center;
     align-items: center;
-    padding: 5px; }
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
   .carta .carta__imagenes {
     border-radius: 5%;
     border: black solid 2px;
