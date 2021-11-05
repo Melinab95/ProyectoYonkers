@@ -555,9 +555,12 @@ h3 {color: #B22B1C;
     ;
     justify-content: center;
     font-size: 1.2rem;
-    text-align: end
-    ;
-
+    text-align: end;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
    
 }
 
@@ -566,15 +569,11 @@ h3 {color: #B22B1C;
     width: 100%;
     align-content: center;
     text-align: center;
-    
    
 }
 
 
 .buda {grid-area: buda;
-   
-    
-
 
 }
 
@@ -583,20 +582,18 @@ h3 {color: #B22B1C;
 
 .textobuda {grid-area: txtbuda;
     height: 400px;
-    
 }
-.ganesha {grid-area: ganesha;
-    
 
- 
+.ganesha {grid-area: ganesha;
 }
+
 .ganesha img {width: 100%;}
 
+
 .textoganesha {grid-area: txtganesha;
-    
-  
 
 }     
+
 .bordes{border: 2px black solid;}
 
 
@@ -764,4 +761,4 @@ h3 {color: #B22B1C;
         height: 400px; }
 
 
-    }
+}
