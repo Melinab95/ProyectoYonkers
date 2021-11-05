@@ -20,10 +20,12 @@
 /*footer**********************************************************/
 
 .containerfooter {
+    
     width: 100%;
     height: 100px;
-
+    background-color: rgba(0, 0, 0, 0.671);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    align-items: center;
+    color: white;    
   }

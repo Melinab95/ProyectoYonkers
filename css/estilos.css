@@ -92,7 +92,10 @@ h3 {color: #B22B1C;
     text-align: center;
 }
 
+.noPadding {
 
+        padding-left:  0px; 
+}
 
 /*carrousel***********************/
 
