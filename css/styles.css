@@ -1,0 +1,183 @@
+/************************************************************/
+.footer {
+  background-color: rgba(0, 0, 0, 0.705);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: white;
+  padding: 20px; }
+  .footer .footer__yonkers {
+    font-size: 24px; }
+  .footer .footer__direccion {
+    font-size: 20px; }
+
+/*footer**********************************************************/
+.containerfooter {
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+/************************************************************/
+.logoMarca {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.671);
+  padding: 50px; }
+  .logoMarca .logomarca__imagen--bordes {
+    border: black 10px solid; }
+
+/************************************************************/
+.separador {
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  text-align: center; }
+
+/************************************************************/
+.nuestraspizzas {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  background-color: rgba(1, 1, 3, 0.705);
+  color: white;
+  margin: 50px; }
+  .nuestraspizzas .nuestraspizzas__lista--sindeco {
+    list-style: none; }
+
+/************************************************************/
+.mapa {
+  background-color: black; }
+  .mapa .mapa__titulo {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    text-transform: uppercase; }
+  .mapa .mapa--tamanio {
+    width: 30%;
+    height: 400px; }
+
+/********************************************************************/
+/***********************************************/
+.cajita {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  background-color: darkred; }
+  .cajita .cajita__contenedor {
+    height: auto;
+    border-radius: 1%;
+    border: 5px rgba(0, 0, 0, 0.883) solid;
+    padding: 20px;
+    margin: 10px;
+    z-index: 2; }
+  .cajita .cajita__contenedor--fondo {
+    background-color: white; }
+
+.flexcontainer--fondo {
+  background-color: #534c4c57;
+  padding: 10px; }
+
+/*CARTA*/
+.carta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
+  background-position: center;
+  background-size: cover; }
+  .carta .carta__cajita {
+    border: 2px black solid;
+    width: 420px;
+    height: 420px;
+    background-color: white;
+    margin: 10px;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+    padding: 5px; }
+  .carta .carta__imagenes {
+    border-radius: 5%;
+    border: black solid 2px;
+    width: 350px;
+    padding: 2px;
+    margin: 10px; }
+  .carta .carta--zoom {
+    transition: transform .2s; }
+  .carta .carta--zoom:hover {
+    transform: scale(116%); }
+
+@media (max-width: 599px) {
+  .carta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
+    background-position: center;
+    background-size: cover; }
+    .carta .carta__cajita {
+      border: 2px black solid;
+      width: 100%;
+      height: 420px;
+      background-color: white;
+      margin: 10px;
+      flex-flow: row wrap;
+      text-align: center;
+      align-items: center;
+      padding: 5px; }
+    .carta .carta__imagenes {
+      border-radius: 5%;
+      border: black solid 2px;
+      width: 100%;
+      padding: 2px;
+      margin: 0px; }
+    .carta .carta--zoom {
+      transition: transform .2s; }
+    .carta .carta--zoom:hover {
+      transform: scale(116%); } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
+    background-position: center;
+    background-size: cover; }
+    .carta .carta__cajita {
+      border: 2px black solid;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      margin: 10px;
+      flex-flow: row wrap;
+      text-align: center;
+      align-items: center;
+      padding: 5px; }
+    .carta .carta__imagenes {
+      border-radius: 5%;
+      border: black solid 2px;
+      width: 100%;
+      padding: 2px;
+      margin: 0px; }
+    .carta .carta--zoom {
+      transition: transform .2s; }
+    .carta .carta--zoom:hover {
+      transform: scale(116%); } }
+
+/*textosprincipales*/
+.txtPrincipal {
+  font-family: 'Krona One', sans-serif; }
+  .txtPrincipal .txtPrincipal__titulo {
+    font-size: 60px;
+    text-transform: uppercase; }
+  .txtPrincipal .txtPricipal__descripcion {
+    font-size: 30px;
+    font-family: 'DM Serif Text', serif;
+    color: #B22B1C; }

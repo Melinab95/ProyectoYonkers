@@ -1,0 +1,10 @@
+Agregue meta keywords en todas las paginas
+Agregue descripciones
+Reduje el tamaño de algunas imagenes en px
+Reduje la calidad de otras
+Agregue title a las secciones
+Use medidas rem para que el tamaño de fuentes sea adaptable a personas con poca vision
+Uso de =alt descriptivo en todas las imagenes
+Diseño de la web responsive a distintos dispositivos
+Facil acceso desde otras paginas al inicio y navegacion
+Uso de encabezados y estructurados

@@ -1,0 +1,29 @@
+/************************************************************/
+
+.footer {background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+    .footer__yonkers {font-size: 24px;}
+
+    .footer__direccion {font-size: 20px;}
+
+}
+
+
+
+
+
+/*footer**********************************************************/
+
+.containerfooter {
+    width: 100%;
+    height: 100px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
