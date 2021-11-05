@@ -218,7 +218,7 @@ h3 {color: #B22B1C;
     font-size: 1.4rem;
     text-align: center
     ;
-    row-gap: 50px
+    row-gap: 10px
     ;
 
    
@@ -297,7 +297,7 @@ h3 {color: #B22B1C;
     
     height: 600px;
     width: 100%;
-    background-image: url(/media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
+    background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
     align-content: center;
     overflow: hidden;
     margin-top: 10px;
