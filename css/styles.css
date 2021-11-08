@@ -65,6 +65,9 @@
   .mapa .mapa--tamanio {
     width: 15%;
     height: 400px; }
+  .mapa .mapa--tamanio2 {
+    width: 200px;
+    height: 200px; }
 
 /********************************************************************/
 /***********************************************/
@@ -123,6 +126,29 @@
   .carta .carta--zoom:hover {
     transform: scale(116%); }
 
+/*GRILLACONTACTO*********************/
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 1rem; }
+
+.contenedorC {
+  grid-column: 2/7;
+  width: 100%;
+  border: black 1px solid;
+  text-align: center;
+  padding-top: 50px; }
+
+.contenedorD {
+  grid-column: 7/12;
+  width: 100%;
+  border: black 1px solid; }
+
+.paddingContacto {
+  margin: 15px;
+  padding: 20px; }
+
+/*GRILLACONTACTO*********************/
 @media (max-width: 599px) {
   .carta {
     display: flex;
