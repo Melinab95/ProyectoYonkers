@@ -3,7 +3,8 @@
 .cajita{display: flex;
     padding: 20px;
     justify-content: center;
-    background-color: darkred;
+    background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);    
+    background-attachment: fixed;
     
     }
 
@@ -12,12 +13,12 @@
 
     .cajita__contenedor {
     height: auto;
-    border-radius: 1%;
-    border: 5px rgba(0, 0, 0, 0.883) solid;
+    border-radius: 3%;
+    border: 5px rgba(56, 2, 2, 0.883) solid;
     padding: 20px;
     margin: 10px;
     z-index: 2;
-
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.698);
 
     }
 
