@@ -3,7 +3,6 @@
 footer {
   background-color: rgba(0, 0, 0, 0.705);
   width: 100%;
-  height: 100px;
   text-align: center;
   color: white;
   padding: 20px; }
@@ -15,7 +14,7 @@ footer {
 /*footer**********************************************************/
 .containerfooter {
   width: 100%;
-  height: 100px;
+  height: 182px;
   background-color: rgba(0, 0, 0, 0.671);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -69,19 +68,8 @@ body {
 
 /************************************************************/
 .mapa {
-  background-color: black; }
-  .mapa .mapa__titulo {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Italiana', serif;
-    font-size: 40px;
-    text-transform: uppercase; }
-  .mapa .mapa--tamanio {
-    width: 15%;
-    height: 400px; }
-  .mapa .mapa--tamanio2 {
-    width: 200px;
-    height: 200px; }
+  width: 100%;
+  height: 400px; }
 
 .titulos2 {
   color: #B22B1C;
@@ -299,8 +287,7 @@ h3 {
   list-style: none; }
 
 .sinDeco {
-  text-decoration: none;
-  color: rgba(12, 5, 5, 0.596); }
+  text-decoration: none; }
 
 /*TaBLET*/
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -777,3 +764,12 @@ a.nav-link {
 
 .margenNuestroProducto {
   margin: 30px; }
+
+.paddingContacto {
+  margin: 2px; }
+
+.paddingFormulario {
+  padding-bottom: 20px; }
+
+.paddingFooter {
+  padding: 10px; }

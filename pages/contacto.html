@@ -96,11 +96,13 @@
                <div class="contenedorB">
                 <h2>Contactanos!</h2>
                 <form action="">
-                  <fieldset>
-                      <input type="text" name="nombres" placeholder="Nombres"> <br>
-                      <input type="text" name="apellido" placeholder="Apellido"> <br>
-                      <input type="email" name="email" placeholder="Correo Electronico"> <br>
-                      <input type="number" name="Telefono" placeholder="Telefono"> <br>
+                  <fieldset >
+                      <div>
+                        <input class="paddingContacto" type="text" name="nombres" placeholder="Nombres"> <br>
+                        <input class="paddingContacto" type="text" name="apellido" placeholder="Apellido"> <br>
+                        <input class="paddingContacto" type="email" name="email" placeholder="Correo Electronico"> <br>
+                        <input class="paddingContacto" type="number" name="Telefono" placeholder="Telefono"> <br>
+                      </div>
       
                       <select name="Genero">
                           <option value="Select">Seleccionar</option>
@@ -111,8 +113,12 @@
                       <p>¿Desea recibir promociones via e-mail?</p>
                       <input type="checkbox" name="acepta" value="1" /><br>
                       <textarea name="comentario" cols="30" rows="10"></textarea> <br>
-                      <input type="submit" value="Enviar formulario"/>
-                      <input type="reset" value="Limpiar formulario"/>
+
+                      <div class="paddingFormulario">
+                        <input type="submit" value="Enviar formulario"/>
+                        <input type="reset" value="Limpiar formulario"/>
+
+                      </div>
                       
                      
                   </fieldset>
@@ -130,7 +136,7 @@
                  
                  
                  
-        <iframe class="mapa--tamanio mapa--tamanio2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.7532686492186!2d-60.649092684813375!3d-32.95752298091791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab7411e5124f%3A0x6c24b4005b1100e7!2sYonkers!5e0!3m2!1ses-419!2sar!4v1632327687815!5m2!1ses-419!2sar" width="400" height="300" style="border: 5px;" allowfullscreen="" loading="lazy"></iframe></div>    
+        <iframe class="mapa--tamanio " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.7532686492186!2d-60.649092684813375!3d-32.95752298091791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab7411e5124f%3A0x6c24b4005b1100e7!2sYonkers!5e0!3m2!1ses-419!2sar!4v1632327687815!5m2!1ses-419!2sar" width="100%" height="300" style="border: 5px;" allowfullscreen="" loading="lazy"></iframe></div>    
         
 
 
@@ -138,18 +144,31 @@
     <h3 class="margenNuestroProducto"><a href="../index.html">Volver a Inicio</a></h2>
  <hr>
  
- <footer  class="containerfooter">
-
-  <div>&copy; Yonkers Pizza Madre<br></div>
-
-  <div>Cochambamba 1501, Rosario, Santa Fe</div>
+ <footer class="containerfooter">
 
   <div>
-      <a class="colorwsp" href="https://api.whatsapp.com/send?phone=+543412175962"><i class="fab fa-whatsapp"></i></a>
-      <a class="colorinsta" href="https://www.instagram.com/yonkerspizzamadre/"><i class="fab fa-instagram"></i></a>
+    <img src="../media/imagenes/logoyonkersf.png" alt="logoyonkerspequenio">
+    
+    <p class="margenNuestroProducto">Cochambamba 1501, Rosario, Santa Fe</p>
+  </div>
+
+  <div>
+    <ul class="listaSinDeco">
+      <li><a class="sinDeco" href="../index.html">Inicio</a></li>
+      <li><a class="sinDeco" href="./nuestroproducto.html">Nuestro producto</a></li>
+      <li><a class="sinDeco" href="./carta.html">Carta</a></li>
+      <li><a class="sinDeco" href="./delivery.html">Delivery</a></li>
+      <li><a class="sinDeco" href="./contacto.html">Contacto</a></li>
+    </ul>
+
+  </div>
+
+  <div>
+      <a class="paddingFooter" href="https://api.whatsapp.com/send?phone=+543412175962"><img src="../media/imagenes/wspfooter.png" alt="logowhatsapp"></a>
+      <a class="paddingFooter" href="https://www.instagram.com/yonkerspizzamadre/"><img src="../media/imagenes/instafooter.svg" alt="logoinstagram"></i></a>
   </div>
     
-</footer>
+  </footer> 
 
     <!--Scripts JS-->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
