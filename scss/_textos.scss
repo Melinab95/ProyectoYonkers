@@ -13,5 +13,26 @@
 
 }
 
+.padding-textos {padding: 20px;}
 
 
+.txtNuestroProducto {
+    padding: 20px;
+    font-size: 1.2rem;
+
+}
+
+
+/*subrayado************************/
+.subrayado {
+    text-decoration: underline;
+    
+}
+
+.listaSinDeco {
+    list-style: none;
+}
+
+.sinDeco {text-decoration: none;
+    color: rgba(12, 5, 5, 0.596);
+}

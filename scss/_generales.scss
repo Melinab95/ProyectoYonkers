@@ -1,4 +1,26 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
 /************************************************************/
+
+
+/*Ajustes generales al body*/
+body {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem ;
+    font-weight: 3;
+    background-image: url(../media/imagenes/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+    
+}
+
 
 .separador {display: grid;
     justify-content: center;
@@ -49,5 +71,34 @@
 }
 
 
+.titulos2 {
+    color:#B22B1C ;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.1rem;
+    text-transform: uppercase;
 
+}
+.titulos {
+    color: #B22B1C;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h2 {color: #B22B1C;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.2rem;
+}
+
+h3 {color: #B22B1C; 
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
 /********************************************************************/
+
+.noPadding {
+
+    padding-left:  0px; 
+}
+
