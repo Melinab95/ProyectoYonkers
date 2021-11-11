@@ -2,14 +2,16 @@
 
 footer {background-color: rgba(0, 0, 0, 0.705);
     width: 100%;
-    text-align: center;
     color: white;
     padding: 20px;
     
-    .footer__yonkers {font-size: 24px;}
+    .footer__yonkers {font-size: 1.3rem;}
 
-    .footer__direccion {font-size: 20px;}
+    .footer__direccion {font-size: 1.2rem;}
 
+    .footer__textalign {text-align: left;}
+
+    
 }
 
 
