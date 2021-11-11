@@ -1,5 +1,59 @@
-$red: darkred;
-$blue: blue;
+
+//Colores PRINCIPALES
+
+$textos-principales-color: darkred;
+$textos-secundarios-color: black;
+$encabezados: #B22B1C;
+
+//tamaños fuentes
+
+$textos1-tamanio: 1.2rem;
+$textos2-tamanio: 1.5rem;
+$textos3-tamanio: 2.1rem;
+$textos4-tamanio: 3rem;
+
+//Fuentes
+
+$texto-general: 'Manrope', sans-serif;
+$h1:'Krona One', sans-serif;
+$h2: 'Staatliches', cursive;
+$titulos2: 'Manrope', sans-serif;
+$descripciones: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+//Colores
+
+$azul: blue;
+$negro-traslucido: rgba(0, 0, 0, 0.589);
 $negro: black;
-$negrot: rgba(0, 0, 0, 0.657);
-$white: white;
+$rojo: red;
+$verde: green;
+
+//BORDES
+
+$bordes-redondeados: border-radius 5%;
+$bordes-negros: 2px black solid;
+
+//MARGENES
+
+$margen1: 10px;
+$margen2:15px;
+$margen3: 20px;
+$margen4:30px;
+$margen5:50px;
+
+//Paddings
+
+$padding1:10px;
+$padding2:20px;
+$padding3:30px;
+
+//ANCHURAS-ALTURAS
+
+$ancho-total: 100%;
+$ancho-auto: auto;
+$altura-vh: 100vh;
+$altura-auto: auto;
+$altura-100: 100%;
+
+
+
