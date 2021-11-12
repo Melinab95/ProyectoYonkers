@@ -91,13 +91,13 @@
     .titulos2 {
     color:#B22B1C ;
     font-family: 'Manrope', sans-serif;
-    font-size: 1rem;
+    font-size: $textos3-tamanio;
     text-transform: uppercase;
     }
 
     .alinearTxt {text-align: center;
     overflow: hidden;
-    font-size: 0.8rem;
+    font-size: $textos1-tamanio ;
     padding-right: 10px;
     flex-wrap: wrap;
 
@@ -255,6 +255,8 @@
   
   /************************************************************/
 
+  .noDisplay {display: block;}
+  .noDisplaySmart {display: none;}
 
 
 }

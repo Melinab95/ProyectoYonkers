@@ -101,6 +101,9 @@ h3 {
 .noPadding {
   padding-left: 0px; }
 
+.noDisplay {
+  display: none; }
+
 /***********************************************/
 .cajita {
   display: flex;
@@ -487,12 +490,12 @@ a.nav-link {
   .titulos2 {
     color: #B22B1C;
     font-family: 'Manrope', sans-serif;
-    font-size: 1rem;
+    font-size: 2.1rem;
     text-transform: uppercase; }
   .alinearTxt {
     text-align: center;
     overflow: hidden;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding-right: 10px;
     flex-wrap: wrap; }
   /*GRID VIÑETASINDEX********************************************************/
@@ -587,7 +590,11 @@ a.nav-link {
     padding: 10px; }
   .logoMarca .logomarca__imagen--bordes {
     border: black 10px solid; }
-  /************************************************************/ }
+  /************************************************************/
+  .noDisplay {
+    display: block; }
+  .noDisplaySmart {
+    display: none; } }
 
 /*TaBLET*/
 @media (min-width: 768px) and (max-width: 1024px) {
