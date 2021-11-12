@@ -1,8 +1,8 @@
 {
   "name": "proyectoyonkers",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "pizzas-de-masa-madre-estilo-americano",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": 
@@ -11,7 +11,7 @@
     
 
   },
-  "author": "",
+  "author": "melina-bergamaschi",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
