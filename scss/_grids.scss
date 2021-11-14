@@ -94,23 +94,28 @@
     color: rgba(255, 255, 255, 0.692);
     font-size: 1.5rem;
 
+    div {
+    
+        height: 600px;
+        width: 100%;
+        background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
+        background-attachment: fixed;
+        align-content: center;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-size: cover;
+    
+        
+        
+    }
+    
+
 }
 
-.gridIndex div {
-    
-    height: 600px;
-    width: 100%;
-    background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
-    background-attachment: fixed;
-    align-content: center;
-    overflow: hidden;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-size: cover;
 
-    
-    
-}
+
+
 .tituloGrid{font-size: 2.5rem;
     text-transform: uppercase;
     color:#B22B1C ;
@@ -147,6 +152,9 @@
     height: 600px;
     width: 100%;
 
+    .txtSalon {grid-area: txtsalon;
+    }
+
     
 }
 .gridIndex__salon{
@@ -154,23 +162,28 @@
     width: 100%;
 
 }
-.txtSalon {grid-area: txtsalon;
-}
+
 .envios {grid-area: envios;
     overflow: hidden;
 
+    img {width: 100%;
+        height: 600px;
+    }
+
+    .txtenvios {grid-area: txtenvios;}
+
 }
 
-.envios img {width: 100%;
-    height: 600px;
-}
+ 
 
-.txtenvios {grid-area: txtenvios;}
+
 
 .takeAway {grid-area: takeaway;
     overflow: hidden;
 
-}
-.txtAway {grid: txttakeaway;}
+    img {width: 100%;}
 
-.takeAway img {width: 100%;}
+    .txtAway {grid: txttakeaway;}
+
+}
+

@@ -286,17 +286,16 @@ h3 {
   align-items: center;
   color: rgba(255, 255, 255, 0.692);
   font-size: 1.5rem; }
-
-.gridIndex div {
-  height: 600px;
-  width: 100%;
-  background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
-  background-attachment: fixed;
-  align-content: center;
-  overflow: hidden;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-size: cover; }
+  .gridIndex div {
+    height: 600px;
+    width: 100%;
+    background-image: url(../media/imagenes/depositphotos_386864266-stock-photo-black-brick-wall-architectural-dark.jpg);
+    background-attachment: fixed;
+    align-content: center;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: cover; }
 
 .tituloGrid {
   font-size: 2.5rem;
@@ -332,34 +331,29 @@ h3 {
   grid-area: salon;
   height: 600px;
   width: 100%; }
+  .salon .txtSalon {
+    grid-area: txtsalon; }
 
 .gridIndex__salon {
   height: 600px;
   width: 100%; }
 
-.txtSalon {
-  grid-area: txtsalon; }
-
 .envios {
   grid-area: envios;
   overflow: hidden; }
-
-.envios img {
-  width: 100%;
-  height: 600px; }
-
-.txtenvios {
-  grid-area: txtenvios; }
+  .envios img {
+    width: 100%;
+    height: 600px; }
+  .envios .txtenvios {
+    grid-area: txtenvios; }
 
 .takeAway {
   grid-area: takeaway;
   overflow: hidden; }
-
-.txtAway {
-  grid: txttakeaway; }
-
-.takeAway img {
-  width: 100%; }
+  .takeAway img {
+    width: 100%; }
+  .takeAway .txtAway {
+    grid: txttakeaway; }
 
 /*fondo ladrillos*/
 .imgPrincipales {
