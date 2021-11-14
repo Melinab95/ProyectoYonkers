@@ -8,6 +8,8 @@ footer {
     text-align: start;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.692); }
+  footer .loguito {
+    width: auto; }
 
 /*footer**********************************************************/
 .containerfooter {
@@ -15,7 +17,7 @@ footer {
   height: 182px;
   background-color: rgba(0, 0, 0, 0.671);
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   color: white; }
 
@@ -431,6 +433,9 @@ a.nav-link {
 .paddingFooter {
   padding: 10px; }
 
+.margenFooter {
+  margin: 30px; }
+
 /*MEDIA QUERIES***********************************************/
 /***smartphone*********************************/
 @media (max-width: 599px) {
@@ -594,7 +599,28 @@ a.nav-link {
   .noDisplay {
     display: block; }
   .noDisplaySmart {
-    display: none; } }
+    display: none; }
+  footer {
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.692); }
+    footer .apartado {
+      text-align: start;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.692); }
+    footer .loguito {
+      width: 100px; }
+  /*footer**********************************************************/
+  .containerfooter {
+    width: 100%;
+    height: 182px;
+    background-color: rgba(0, 0, 0, 0.671);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    color: white; }
+  .margenFooter {
+    margin: 0px; } }
 
 /*TaBLET*/
 @media (min-width: 768px) and (max-width: 1024px) {

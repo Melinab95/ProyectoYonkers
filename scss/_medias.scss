@@ -258,6 +258,39 @@
   .noDisplay {display: block;}
   .noDisplaySmart {display: none;}
 
+  
+    footer {background-color: $negro-traslucido;
+        width: 100%;
+        color: $blanco-gris;
+  
+
+    .apartado {text-align: start;
+        text-decoration: none;
+        color: $blanco-gris;
+    }
+    
+
+    .loguito {
+        width: 100px;}
+
+    
+}
+
+/*footer**********************************************************/
+
+    .containerfooter {
+    
+    width: 100%;
+    height: 182px;
+    background-color: rgba(0, 0, 0, 0.671);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    color: white ;    
+  }
+
+  .margenFooter {margin:0px}
+
 
 }
 
