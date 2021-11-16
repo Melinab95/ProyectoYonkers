@@ -106,6 +106,13 @@ h3 {
 .noDisplay {
   display: none; }
 
+.fondoBollos {
+  background-image: url(../media/imagenes/bollos.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px; }
+
 /***********************************************/
 .cajita {
   display: flex;
@@ -416,7 +423,7 @@ a.nav-link {
   letter-spacing: 1px; }
 
 .margenNuestroProducto {
-  margin: 30px; }
+  margin-top: 30px; }
 
 .paddingContacto {
   margin: 2px; }
