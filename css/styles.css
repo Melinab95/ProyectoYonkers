@@ -382,18 +382,15 @@ h3 {
   .grilla .contenedorC {
     grid-column: 2/5;
     width: 100%;
-    border: black 1px solid;
     text-align: center;
     padding-top: 50px; }
   .grilla .contenedorD {
     grid-column: 5/9;
     width: 100%;
-    border: black 1px solid;
     padding-top: 50px; }
   .grilla .contenedorB {
     grid-column: 9/12;
     width: 100%;
-    border: black 1px solid;
     padding-top: 50px; }
   .grilla .paddingContacto {
     margin: 15px;
@@ -477,6 +474,9 @@ a.nav-link {
 
 .margenVideo {
   margin-top: 20px; }
+
+.paddingNuestroProducto {
+  padding-top: 30px; }
 
 /*MEDIA QUERIES***********************************************/
 /***smartphone*********************************/
@@ -721,7 +721,13 @@ a.nav-link {
     .carta .carta--zoom {
       transition: transform .2s; }
     .carta .carta--zoom:hover {
-      transform: scale(116%); } }
+      transform: scale(116%); }
+  .fondoBollos {
+    background-image: url();
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto; } }
 
 /*TaBLET*/
 @media (min-width: 768px) and (max-width: 1024px) {
