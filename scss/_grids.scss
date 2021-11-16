@@ -70,6 +70,62 @@
 
 .bordes{border: 2px black solid;}
 
+
+
+.tituloGrid{font-size: 2.5rem;
+    text-transform: uppercase;
+    color:#B22B1C ;
+    font-weight: bold
+    ;
+
+}
+
+.textAlignCenter {text-align: center;
+}
+.textAlign {
+    padding-top: 45%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*Alineacion texto grilla mm*/
+.textAlignNuestrosProd {
+    padding-top: 27%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.padLetras {padding: 30px;
+    font-size: 1.2rem;
+}
+
+.padTitulo {padding: 10px;}
+/**/
+
+
+
+
+.tituloGrid{font-size: 2.5rem;
+    text-transform: uppercase;
+    color:#B22B1C ;
+    font-weight: bold
+    ;
+
+}
+
+.textAlignCenter {text-align: center;
+}
+.textAlign {
+    padding-top: 45%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
 /*GRID VIÑETASINDEX********************************************************/
 .gridIndex {display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -115,45 +171,9 @@
 
 
 
-
-.tituloGrid{font-size: 2.5rem;
-    text-transform: uppercase;
-    color:#B22B1C ;
-    font-weight: bold
-    ;
-
-}
-
-.textAlignCenter {text-align: center;
-}
-.textAlign {
-    padding-top: 45%;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-/*Alineacion texto grilla mm*/
-.textAlignNuestrosProd {
-    padding-top: 27%;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.padLetras {padding: 30px;
-    font-size: 1.2rem;
-}
-
-.padTitulo {padding: 10px;}
-/**/
-
 .salon {grid-area: salon;
     height: 600px;
     width: 100%;
-
-    .txtSalon {grid-area: txtsalon;
-    }
 
     
 }
@@ -162,30 +182,26 @@
     width: 100%;
 
 }
-
+.txtSalon {grid-area: txtsalon;
+}
 .envios {grid-area: envios;
     overflow: hidden;
 
-    img {width: 100%;
-        height: 600px;
-    }
-
-    .txtenvios {grid-area: txtenvios;}
-
 }
 
- 
+.envios img {width: 100%;
+    height: 600px;
+}
 
-
+.txtenvios {grid-area: txtenvios;}
 
 .takeAway {grid-area: takeaway;
     overflow: hidden;
 
-    img {width: 100%;}
-
-    .txtAway {grid: txttakeaway;}
-
 }
+.txtAway {grid: txttakeaway;}
+
+.takeAway img {width: 100%;}
 
 /*GRILLACONTACTO*********************/
 .grilla {display: grid;
