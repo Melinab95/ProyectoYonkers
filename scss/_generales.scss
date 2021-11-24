@@ -120,9 +120,76 @@ h3 {color: #B22B1C;
         border: 10px rgb(255, 255, 255) solid;
         padding: 12px;
         background-image: url(../media/imagenes/brickwall.jpg);
+        opacity: 0.9;
         object-fit: cover;
     }
     
 }
 
 .anchoTotal {width: $ancho-total;}
+
+
+.imgUno{
+    position: absolute;
+    border: white 3px solid;
+    border-radius: 5%;
+    z-index: 1;
+    left: 270px;
+}
+
+.imgDos{
+    position: relative;
+    border: white 3px solid;
+    border-radius: 5%;
+    z-index: 0;
+    margin-top: 200px;
+    height: 900px;
+
+
+}
+
+.imgTres{
+    position: relative;
+    border: white 3px solid;
+    border-radius: 5%;
+    z-index: -1;
+    left: 50px;
+    margin-top: 100px;
+    height: 800px;
+}
+
+.imgCuatro{
+    position: absolute;
+    border: white 3px solid;
+    border-radius: 5%;
+    z-index: 3;
+    left: 1100px;
+    margin-top:900px;
+    width: 600px;
+
+}
+.imgCinco{
+    position: absolute;
+    border: white 3px solid;
+    border-radius: 5%;
+    z-index: 3;
+    left: 190px;
+    margin-top:800px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.imgSeis{
+    position: relative;
+    border: white 3px solid;
+    border-radius: 5%;
+    z-index: -2;
+    margin-left: 100px;
+    margin-right: 400px;
+    
+    width: 600px;
+    height: 700px;
+
+}
+
