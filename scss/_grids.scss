@@ -147,7 +147,9 @@
     padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: $rojo-oscuro;
+
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(233,8,8,1) 100%);    
     align-items: center;
     color: rgba(255, 255, 255, 0.692);
     font-size: 1.5rem;
@@ -176,6 +178,10 @@
 .salon {grid-area: salon;
     height: 600px;
     width: 100%;
+    img {
+        object-fit: cover;
+
+    }
 
     
 }
@@ -188,22 +194,26 @@
 }
 .envios {grid-area: envios;
     overflow: hidden;
+    img {width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
 
 }
 
-.envios img {width: 100%;
-    height: 600px;
-}
+
 
 .txtenvios {grid-area: txtenvios;}
 
 .takeAway {grid-area: takeaway;
     overflow: hidden;
+    img {width: 100%;
+        object-fit: cover;
+    }
+    
 
 }
 .txtAway {grid: txttakeaway;}
-
-.takeAway img {width: 100%;}
 
 /*GRILLACONTACTO*********************/
 .grilla {display: grid;
@@ -250,3 +260,46 @@
 
 
 /*GRILLACONTACTO*********************/
+
+
+/***IMAGENESDESTACADASINDEX******************/
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    row-gap: 10px;
+    column-gap: 10px ;
+    
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+}
+
+
+.gallery__item:nth-child(4) {
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+
+
+}
+
+.gallery__item:nth-child(5) {
+    grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(9) {
+    grid-column-start: span 3;
+
+
+}
+
+
+/***IMAGENESDESTACADASINDEX******************/
