@@ -46,7 +46,8 @@ footer {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 /************************************************************/
 /*Ajustes generales al body*/
@@ -143,6 +144,25 @@ h3 {
 
 .anchoTotal {
   width: 100%; }
+
+/*SCROLL*/
+.arrow {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9; }
+
+.arrow a {
+  height: 39px;
+  width: 37px;
+  text-align: center;
+  background: #000000;
+  display: block;
+  border-radius: 3px;
+  opacity: 0.7; }
+
+.bi {
+  fill: darkred; }
 
 /***********************************************/
 .cajita {
@@ -825,7 +845,21 @@ a.nav-link {
     grid-row-start: span 1; }
   .gallery__item:nth-child(9) {
     grid-column-start: span 1; }
-  /***IMAGENESDESTACADASINDEX******************/ }
+  /***IMAGENESDESTACADASINDEX******************/
+  /*SCROLL*/
+  .arrow {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 9; }
+  .arrow a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #000000;
+    display: block;
+    border-radius: 3px;
+    opacity: 0.7; } }
 
 /*TaBLET*/
 @media (min-width: 768px) and (max-width: 1024px) {
